@@ -1,4 +1,6 @@
-# mock
+# mockjs+axios的基本使用
+
+前端做项目小练习的时候往往没有真实的数据的接口供我们练习，mockjs可以模拟向后台发起请求，本项目结合mockjs官网文档，对mockjs+axios进行基本简单的封装。
 
 ## 一、在项目中安装mockjs和axios
 ```
