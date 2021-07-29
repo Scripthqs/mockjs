@@ -1,7 +1,6 @@
 import axios from 'axios'
 export function request(config) {
     const instance1 = axios.create({
-        // baseURL: 'https://autumnfish.cn/',
         baseURL: '',
         timeout: 5000,
     })
@@ -18,7 +17,7 @@ export function request(config) {
     },err => {
         console.log(err);
     })
-    //axios.create的返回值是一个promise对象！
+    //axios.create的返回值是一个promise对象
     return instance1(config);
 }
 
